@@ -1,0 +1,49 @@
+{
+  "chart": {
+    "title": "Annual change in population",
+    "subtitle": "Future projections are based on the UN's medium scenario.",
+    "citation": "UN, World Population Prospects (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-population-growth?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World"
+    ]
+  },
+  "columns": {
+    "Population change - Sex: all - Age: all - Variant: estimates": {
+      "titleShort": "Annual change in population",
+      "titleLong": "Annual change in population - UN WPP",
+      "descriptionShort": "Annual change in population, calculated as the difference between population on 1 July of consecutive years.",
+      "descriptionKey": "This is the *net* change in population. It reflects births, deaths, and migration combined. To see only the contribution of births and deaths, look at the [natural population growth rate](https://ourworldindata.org/grapher/natural-population-growth).",
+      "descriptionProcessing": "We compute population change as the difference between the population in two consecutive years, using the UN's published population counts.",
+      "unit": "people",
+      "timespan": "1951-2023",
+      "type": "Integer",
+      "conversionFactor": 1,
+      "owidVariableId": 951675,
+      "shortName": "population_change__sex_all__age_all__variant_estimates",
+      "lastUpdated": "2024-07-12",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Annual change in population – UN WPP” [dataset]. United Nations, “World Population Prospects”; United Nations, “World Population Prospects - Interim Update” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/951675.metadata.json"
+    },
+    "Population change - Sex: all - Age: all - Variant: medium": {
+      "titleShort": "Annual change in population",
+      "titleLong": "Annual change in population - UN WPP – with medium scenario projections",
+      "descriptionShort": "Annual change in population, calculated as the difference between population on 1 July of consecutive years.  Future projections are based on the UN's medium scenario.",
+      "descriptionKey": "This is the *net* change in population. It reflects births, deaths, and migration combined. To see only the contribution of births and deaths, look at the [natural population growth rate](https://ourworldindata.org/grapher/natural-population-growth).",
+      "descriptionProcessing": "We compute population change as the difference between the population in two consecutive years, using the UN's published population counts.",
+      "unit": "people",
+      "timespan": "2024-2100",
+      "type": "Integer",
+      "conversionFactor": 1,
+      "owidVariableId": 951683,
+      "shortName": "population_change__sex_all__age_all__variant_medium",
+      "lastUpdated": "2024-07-12",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Annual change in population – UN WPP – with medium scenario projections” [dataset]. United Nations, “World Population Prospects”; United Nations, “World Population Prospects - Interim Update” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/951683.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-08-09",
+  "activeFilters": {}
+}
