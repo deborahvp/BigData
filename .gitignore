@@ -1,1 +1,4 @@
-.venv/
+?Documentación/
+**/.venv/
+**/pycache?_/
+**/.ipynb_checkpoints/
